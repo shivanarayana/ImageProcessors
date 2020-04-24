@@ -190,8 +190,8 @@ elif len(phyeigty) > 0:
 elif len(phyninty) > 0:
     physics = 90
 
-print("PHYSICS:")
-print(physics)
+#print("PHYSICS:")
+#print(physics)
 chemistry = 0
 if len(chsvnty) > 0:
     chemistry = 70
@@ -200,8 +200,8 @@ elif len(cheigty) > 0:
 elif len(chninty) > 0:
     chemistry = 90
 
-print("CHEMISTRY:")
-print(chemistry)
+#print("CHEMISTRY:")
+#print(chemistry)
 mathematics = 0
 if len(mtsvnty) > 0:
     mathematics = 70
@@ -210,11 +210,11 @@ elif len(mteigty) > 0:
 elif len(mtninty) > 0:
     mathematics = 90
 
-print("MATHEMATICS:")
-print(mathematics)
+#print("MATHEMATICS:")
+#print(mathematics)
 percentage = (physics+chemistry+mathematics)/3
-print("PERCENTAGE:")
-print(percentage)
+#print("PERCENTAGE:")
+#print(percentage)
 print('RESULT')
 print('------')
 if percentage > 90:
