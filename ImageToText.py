@@ -5,7 +5,7 @@ from PIL import Image
 print('step 0 initialize tesseract')
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files (x86)\Tesseract-OCR\tesseract.exe'
 print('step 1')
-img = Image.open('ms-2.JPG').convert('LA')
+img = Image.open('heads up.png').convert('LA')
 print('step 2')
 text = pytesseract.image_to_string(img)
 print('step 3')
